@@ -1,0 +1,35 @@
+.sectionContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 55px; padding-bottom: 50px;
+
+    &:nth-child(odd){
+        background-color: #FAEA9A;
+    }
+
+    .sectionHeading{
+        h2{
+            font-size: 32px;
+            color: #61341A;
+            font-family: 'Euclid Flex';
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+            text-transform: uppercase;
+            text-align: center;
+            margin: 0;
+        }
+        .underlineImage{
+            margin-top: -.5rem;
+            mix-blend-mode: multiply;
+        }
+    }
+}
+
+.teamSlideShow{
+    margin-top: 30px;
+    width: 100%;
+    // padding: 0 3.5rem;
+}

@@ -1,0 +1,82 @@
+.formButton{
+    width: 180px;
+    height: 46px;
+    flex-shrink: 0;
+    // border-radius: 5px;
+    background: #E1CD72;
+    color: #61341A;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    border: none;
+    &:focus-visible{
+        outline: 1px solid #897a36!important;
+    }
+}
+.viewFile{
+    width: 180px;
+    height: 46px;
+    flex-shrink: 0;
+    // border-radius: 5px;
+    background: #E1CD72;
+    color: #61341A;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    border: none;
+}
+
+.firstButton{
+    left: 2rem;
+    top: 1.25rem;
+}
+.cursorPointer{
+    cursor: pointer;
+}
+
+.middleButton{
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: 1.25rem;
+    transform: translateX(-20px);
+}
+
+.lastButton{
+    right: 2rem;
+    top: 1.25rem;
+}
+
+.yellowOutlineButton{
+    // border-radius: 5px;
+    // border: 1px solid #FAC600;
+    color: #61341A;
+    background-color: #E1CD72;
+}
+
+.yellowOutlineButtonAdjust{
+    margin-right: 15%;
+}
+
+.activeText {
+    color: #61341A!important;
+    font-weight: 500!important;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .formButton{
+        width: fit-content;
+        padding: 0 15px;
+        font-size: 12px;
+    }
+
+    .middleButton{
+        transform: translateX(0px);
+    }
+}
+

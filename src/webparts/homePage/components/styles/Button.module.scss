@@ -1,0 +1,27 @@
+.formButton{
+    width: 180px;
+    height: 46px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    background: #0069A6;
+    color: #FFF;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    border: none;
+}
+
+.yellowOutlineButton{
+    border-radius: 5px;
+    border: 1px solid #FAC600;
+    color: #2B2B2B;
+    background-color: #FFF;
+}
+
+.activeText {
+    color: red;
+}
+
+

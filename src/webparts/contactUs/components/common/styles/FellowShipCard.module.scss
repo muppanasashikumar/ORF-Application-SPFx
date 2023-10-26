@@ -1,0 +1,56 @@
+.fellowshipCard{
+    overflow: hidden;
+    font-family: 'Euclid Flex';
+    width: 329px;
+    border: none;
+    border-radius: 0!important;
+    background: #FFF;
+    box-shadow: 2px 0px 15px 0px rgba(0, 0, 0, 0.08);
+    position: relative;
+
+
+    .fellowShipCardBody{
+        padding: 30px;
+        padding-bottom: 20px;
+       
+    }
+
+    .fellowshipCardImage{
+        // width: 146px;
+        width: fit-content;
+        height: 139px;
+    }
+
+    .fellowshipCardTitle{
+        margin: 20px 0;
+        color: #61341A;
+        text-align: center;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 22px; /* 108.333% */
+        text-transform: uppercase;
+    }
+
+    .fellowshipCardContentContainer{
+        text-align: center;
+        font-style: normal;
+        line-height: normal;
+        margin-top: 15px;
+        .fellowshipCardContentTitle{
+            color: #61341A;
+            font-weight: 500;
+            text-transform: uppercase;
+            font-size: 15px;
+        }
+        .fellowshipCardContent{
+            color: #897A36;
+            text-align: center;
+            font-size: 15px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            text-decoration-line: underline;
+        }
+    } 
+}

@@ -1,0 +1,244 @@
+.listViewContainer {
+    background-color: #fff;
+    box-shadow: 2px 0px 15px 0px rgba(0, 0, 0, 0.08);
+    margin: 3rem;
+    padding: 0.5rem 3rem;
+}
+
+.searchContainer {
+    .search {
+        height: 40px;
+        max-width: 263px;
+        padding: 0 15px;
+        width: 100%;
+        font-family: 'Euclid Flex';
+        border: none;
+        // border-right: 0px !important;
+
+        &::placeholder {
+            font-family: 'Euclid Flex';
+            color: #B4A048;
+            font-weight: 400;
+        }
+
+        &:focus {
+            box-shadow: none;
+            outline-color: rgb(202, 184, 103);
+        }
+    }
+
+    .searchButtonContainer {
+        background-color: #fff;
+        border: none;
+
+        .searchButton {
+            border: none;
+        }
+    }
+
+    .searchGroup {
+        border: 1px solid #EEE6BA;
+        border-radius: 4px;
+
+        &:focus-within {
+            outline: 2px solid rgb(202, 184, 103) !important;
+        }
+    }
+}
+
+.clearFilters {
+    // width: 119px;
+    font-family: 'Euclid Flex' !important;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    color: #B4A048;
+    padding: 0 15px;
+    height: 40px;
+    border-radius: 4px;
+    border: 1px solid #EEE6BA;
+    background-color: #fff;
+}
+
+.icons {
+    width: 15px;
+    height: 16.154px;
+}
+
+.numberOfRowsSelector {
+    font-family: 'Euclid Flex';
+    width: 121px;
+    height: 40px;
+    border-radius: 4px;
+    border: 1px solid #EEE6BA;
+    padding: 0 15px;
+    color: #B4A048;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    // option{
+    //     &:target{
+    //         background-color: #B4A048;
+    //         color: white;
+    //     }
+    // }
+
+    &:focus-visible {
+        outline: none;
+    }
+}
+
+.dateRangeLabel {
+    font-family: 'Euclid Flex';
+    color: #B4A048;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.dateRangePicker {
+    box-shadow: 2px 0px 15px 0px rgba(0, 0, 0, 0.15) !important;
+    border-radius: 4px !important;
+    overflow: hidden !important;
+}
+
+:global body.swal2-no-backdrop .swal2-container {
+    background: rgba(0, 0, 0, 0.5) !important;
+}
+
+:global .rdrDateRangePickerWrapper {
+    position: absolute;
+    left: 0;
+    top: 2rem;
+    height: 26rem;
+    z-index: 999;
+    box-shadow: 2px 0px 15px 0px rgba(0, 0, 0, 0.15) !important;
+    border-radius: 4px !important;
+    overflow: hidden !important;
+}
+
+
+.buttonsPosition {
+    position: absolute;
+    top: 25rem;
+    left: 19rem;
+    display: flex;
+    z-index: 999;
+}
+
+.cursorPointer {
+    cursor: pointer;
+}
+
+:global .ms-ComboBox {
+    .ms-Button {
+        background: transparent !important;
+
+        span {
+            i {
+                font-size: 16px;
+
+                &.focus-visible {
+                    outline: none !important;
+                }
+
+                margin: 0;
+            }
+        }
+
+        &:active,
+        &:hover {
+            background: none !important;
+        }
+
+        padding: 0;
+        position: absolute;
+        right: 2rem;
+        top: -0.4rem;
+    }
+
+    &::after {
+        border: none !important;
+    }
+}
+
+.doneBtn {
+    color: #61341a;
+}
+
+.clearBtn {
+    color: red;
+}
+
+:global .rdrStartEdge,
+:global .rdrEndEdge,
+:global .rdrInRange {
+    color: #B4A048 !important;
+}
+
+:global .rdrDateDisplayItemActive {
+    border: 1px solid #61341a !important;
+}
+
+:global .swal2-popup {
+    font-family: 'Euclid Flex';
+    color: #61341a;
+    font-size: 16px !important;
+    font-weight: 500 !important;
+
+    span {
+        font-weight: 900 !important;
+    }
+
+    .swal2-title {
+        font-weight: 500 !important;
+
+        span {
+            font-weight: 900 !important;
+        }
+    }
+
+    .swal2-actions {
+        button {
+            background-color: #B4A048;
+            box-shadow: none !important;
+            font-size: 14px !important;
+        }
+    }
+
+    .swal2-html-container {
+        font-family: 'Euclid Flex';
+        color: #61341a;
+        font-size: 16px !important;
+    }
+}
+
+.filterIcon {
+    &:hover {
+        background: none !important;
+    }
+
+    &:active {
+        background: none !important;
+    }
+
+}
+
+:global .rdrDayToday .rdrDayNumber span:after {
+    background: #faea9a !important;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .listViewContainer {
+        margin: 0;
+        padding: 0.5rem 1.5rem;
+    }
+
+    .searchContainer {
+        width: 100%;
+    }
+}

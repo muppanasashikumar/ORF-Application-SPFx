@@ -1,0 +1,74 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "orf-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/orf/OrfWebPart.js",
+          "manifest": "./src/webparts/orf/OrfWebPart.manifest.json"
+        }
+      ]
+    },
+    "list-view-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/listView/ListViewWebPart.js",
+          "manifest": "./src/webparts/listView/ListViewWebPart.manifest.json"
+        }
+      ]
+    },
+    "home-page-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/homePage/HomePageWebPart.js",
+          "manifest": "./src/webparts/homePage/HomePageWebPart.manifest.json"
+        }
+      ]
+    },
+    "contact-us-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/contactUs/ContactUsWebPart.js",
+          "manifest": "./src/webparts/contactUs/ContactUsWebPart.manifest.json"
+        }
+      ]
+    },
+    "form-details-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/formDetails/FormDetailsWebPart.js",
+          "manifest": "./src/webparts/formDetails/FormDetailsWebPart.manifest.json"
+        }
+      ]
+    },
+    "about-us-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/aboutUs/AboutUsWebPart.js",
+          "manifest": "./src/webparts/aboutUs/AboutUsWebPart.manifest.json"
+        }
+      ]
+    },
+    "our-team-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/ourTeam/OurTeamWebPart.js",
+          "manifest": "./src/webparts/ourTeam/OurTeamWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "OrfWebPartStrings": "lib/webparts/orf/loc/{locale}.js",
+    "PropertyControlStrings": "node_modules/@pnp/spfx-property-controls/lib/loc/{locale}.js",
+    "ListViewWebPartStrings": "lib/webparts/listView/loc/{locale}.js",
+    "HomePageWebPartStrings": "lib/webparts/homePage/loc/{locale}.js",
+    "ContactUsWebPartStrings": "lib/webparts/contactUs/loc/{locale}.js",
+    "FormDetailsWebPartStrings": "lib/webparts/formDetails/loc/{locale}.js",
+    "AboutUsWebPartStrings": "lib/webparts/aboutUs/loc/{locale}.js",
+    "OurTeamWebPartStrings": "lib/webparts/ourTeam/loc/{locale}.js",
+    "ControlStrings": "node_modules/@pnp/spfx-controls-react/lib/loc/{locale}.js"
+  }
+}

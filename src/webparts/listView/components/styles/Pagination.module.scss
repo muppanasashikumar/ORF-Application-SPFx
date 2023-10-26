@@ -1,0 +1,40 @@
+.paginationContainer {
+    font-size: 14px !important;
+    font-family: 'Euclid Flex' !important;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+    a:focus{
+        box-shadow: none;
+    }
+
+    .paginationLinkContainer {
+        .link {
+            color: #B4A048;
+            border: 1px solid #EEE6BA;
+        }
+    }
+}
+
+:global .page-item .page-link {
+    &:hover {
+        box-shadow: none;
+        //outline: 2px solid rgb(202, 184, 103);
+        color: white;
+        background-color: #B4A048;
+    }
+}
+
+:global .page-item.active{
+    .page-link{
+        color: white;
+        background-color: #B4A048;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .footerContainer{
+        padding-top: 1rem;
+    }
+}

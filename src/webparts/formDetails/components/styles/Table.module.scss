@@ -1,0 +1,44 @@
+.table {
+    font-family: 'Euclid Flex';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: uppercase;
+    width: 100%;
+
+    .tableHeading{
+        color: #897A36;
+        background-color: #FAEA9A;
+        border: 1px solid #ece09f;
+        padding: 16px;
+    }
+
+    .tableData{
+        padding: 20px;
+        background-color: #FFF;
+        color: #B4A048;
+        img{
+            cursor: pointer;
+        }
+    }
+}
+
+.tableBorder{
+    border: 1px solid #ECE09F;
+}   
+
+
+@media only screen and (max-width: 600px) {
+    .table{
+        font-size: 12px!important;
+        .tableData{
+            padding: 10px;
+        }
+        .tableHeading{
+            padding: 10px;
+            min-width: 10rem;
+        }
+
+    }
+}

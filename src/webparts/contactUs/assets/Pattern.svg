@@ -1,0 +1,40 @@
+<svg width="180" height="120" viewBox="0 0 180 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Pattern" style="mix-blend-mode:multiply" opacity="0.7">
+<g id="Group 28">
+<rect id="Rectangle 26" width="30" height="30" fill="#FFF3B7"/>
+<rect id="Rectangle 27" y="30" width="30" height="30" fill="#F0E194"/>
+<rect id="Rectangle 28" x="30" width="30" height="30" fill="#FAEA9A"/>
+<rect id="Rectangle 29" x="30" y="30" width="30" height="30" fill="#FFF3B7"/>
+</g>
+<g id="Group 31" opacity="0.75">
+<rect id="Rectangle 26_2" x="60" width="30" height="30" fill="#FFF3B7"/>
+<rect id="Rectangle 27_2" x="60" y="30" width="30" height="30" fill="#F0E194"/>
+<rect id="Rectangle 28_2" x="90" width="30" height="30" fill="#FAEA9A"/>
+<rect id="Rectangle 29_2" x="90" y="30" width="30" height="30" fill="#FFF3B7"/>
+</g>
+<g id="Group 32" opacity="0.5">
+<rect id="Rectangle 26_3" x="120" width="30" height="30" fill="#FFF3B7"/>
+<rect id="Rectangle 27_3" x="120" y="30" width="30" height="30" fill="#F0E194"/>
+<rect id="Rectangle 28_3" x="150" width="30" height="30" fill="#FAEA9A"/>
+<rect id="Rectangle 29_3" x="150" y="30" width="30" height="30" fill="#FFF3B7"/>
+</g>
+<g id="Group 29">
+<rect id="Rectangle 26_4" y="60" width="30" height="30" fill="#FFF3B7"/>
+<rect id="Rectangle 27_4" y="90" width="30" height="30" fill="#F0E194"/>
+<rect id="Rectangle 28_4" x="30" y="60" width="30" height="30" fill="#FAEA9A"/>
+<rect id="Rectangle 29_4" x="30" y="90" width="30" height="30" fill="#FFF3B7"/>
+</g>
+<g id="Group 33" opacity="0.75">
+<rect id="Rectangle 26_5" x="60" y="60" width="30" height="30" fill="#FFF3B7"/>
+<rect id="Rectangle 27_5" x="60" y="90" width="30" height="30" fill="#F0E194"/>
+<rect id="Rectangle 28_5" x="90" y="60" width="30" height="30" fill="#FAEA9A"/>
+<rect id="Rectangle 29_5" x="90" y="90" width="30" height="30" fill="#FFF3B7"/>
+</g>
+<g id="Group 34" opacity="0.5">
+<rect id="Rectangle 26_6" x="120" y="60" width="30" height="30" fill="#FFF3B7"/>
+<rect id="Rectangle 27_6" x="120" y="90" width="30" height="30" fill="#F0E194"/>
+<rect id="Rectangle 28_6" x="150" y="60" width="30" height="30" fill="#FAEA9A"/>
+<rect id="Rectangle 29_6" x="150" y="90" width="30" height="30" fill="#FFF3B7"/>
+</g>
+</g>
+</svg>

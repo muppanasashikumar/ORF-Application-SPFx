@@ -1,0 +1,14 @@
+.inputBox {
+    width: 450px;
+    max-width: 100%;
+    height: 45px;
+    // flex-shrink: 0;
+    border-radius: 4px;
+    border: 1px solid #EEE6BA;
+    //color: #DBC96A;
+    padding: 0.5rem;
+    font-family: 'Euclid Flex';
+    &:focus-visible {
+        outline: 1px solid #897a36!important;
+    }
+}

@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "ORF Solution",
+    "id": "4038d4a3-b671-4357-b9c2-9234de846a1b",
+    "version": "11.0.0.1",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.17.4"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "ORF Form, Homepage, ListingPage"
+      },
+      "longDescription": {
+        "default": "orf description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "orf Feature",
+        "description": "The feature that activates elements of the orf solution.",
+        "id": "8e43fa52-8860-42a4-8d89-e393bfb38811",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/orf.sppkg"
+  }
+}

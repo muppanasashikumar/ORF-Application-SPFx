@@ -1,0 +1,96 @@
+.navigationContainer {
+    // width: 19%;
+    background-color: #FAEA9A;
+    font-family: 'Euclid Flex';
+    // padding: 1.5rem 2rem 1.5rem 2rem;
+
+
+    .navigationHeader {
+        border-bottom: 1px solid #EDD871;
+        margin-top: 1.45rem;
+        padding: 0 2rem;
+    }
+
+    .navigationLinksContainer {
+        padding: 2rem;
+        white-space: nowrap;
+    }
+
+    .heading {
+        color: #61341A;
+       // font-family: 'Euclid Flex';
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        margin-bottom: 0.25rem;
+        text-transform: uppercase;
+    }
+
+    .description {
+        color: #897A36;
+       // font-family: 'Inter';
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin-bottom: 0.75rem;
+    }
+
+    .borderBottom {
+        width: 245px;
+        height: 1px;
+        background: #CBCBCB;
+    }
+
+    .title {
+        color: inherit;
+       // font-family: 'Euclid Flex';
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        margin-bottom: 0;
+        //cursor: pointer;
+    }
+
+    .title_pointer {
+        cursor: pointer;
+    }
+
+    .subHeading {
+        color: #897A36;
+       // font-family: 'Euclid Flex';
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    .subTitle {
+        color: #606060;
+        //font-family: Inter;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+
+}
+
+:global(.css-14sza3e-MuiStepLabel-root) {
+    align-items: start !important;
+}
+
+:global(.MuiStepContent-root:nth-of-type(2)) {
+    border: none !important;
+}
+
+:global(.MuiStepLabel-root) {
+    gap: 1rem;
+}
+
+:global(.MuiStepIcon-text) {
+    font-size: 14px;
+}

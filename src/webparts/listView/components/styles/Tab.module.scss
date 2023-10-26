@@ -1,0 +1,53 @@
+.tabs {
+    font-family: 'Euclid Flex';
+    .tabContainer {
+        padding: 0;
+        margin-bottom: 0;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: normal;
+        text-transform: uppercase;
+        border-bottom: 1px solid #ECE09F;
+        width: fit-content;
+        margin: auto;
+        list-style: none;
+    }
+    .tabTitle{
+        color: #B4A048;
+        padding: 0.5rem 1rem;
+        cursor: pointer;
+    }
+}
+
+:global .react-tabs__tab--selected {
+    border-width: 0px;
+    border-bottom: 3px solid #897A36;
+    color: #897A36!important;
+}
+
+.customRightPos {
+    right: 5%;
+}
+
+.filterButton{
+    background: none;
+    border: none;
+    top: -10px;
+
+    &:hover, &:active, &:focus-visible{
+        background: none!important;
+        box-shadow: none!important;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .tabs{
+        .tabContainer{
+            font-size: 12px;
+        }
+    }
+  
+    .customRightPos {
+        right: 0%;
+    }
+  }

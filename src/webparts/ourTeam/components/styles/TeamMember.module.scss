@@ -1,0 +1,44 @@
+.teamMember {
+    // margin: 0 15px 0;
+    padding: 0;
+    // margin: 0 1rem;
+    width: 100%;
+
+    .teamMemberImage {
+        // height: 180px;
+        width: 150px;
+        border-radius: 50%;
+    }
+
+    .teamMemberName {
+        color: #61341A;
+        font-family: 'Euclid Flex';
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        margin: 10px 0 0;
+    }
+
+    .teamMemberDesignation,.teamMemberEmail {
+        color: #897A36;
+        font-family: 'Euclid Flex';
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin: 3px 0 0;
+        padding: 0 1.5rem;
+    }
+
+    .teamMemberDesignation{
+        -webkit-line-clamp: 2;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+    }
+}
+
+:global .slick-dots{
+    bottom: -37.5px!important;
+}

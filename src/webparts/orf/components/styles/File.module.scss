@@ -1,0 +1,17 @@
+.label {
+    color: #b4a048;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+:global(.filepond--root) {
+    min-height: 54px !important;
+}
+
+:global(.filepond--wrapper) {
+    width: 450px;
+    max-width: 100%;
+}

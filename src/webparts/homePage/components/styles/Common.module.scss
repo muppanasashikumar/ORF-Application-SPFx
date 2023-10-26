@@ -1,0 +1,226 @@
+.fellowShipSectionHeader{
+    // width: 1366px;
+    max-width: 100%;
+    padding: 22px 40px;
+    height: 120px;
+    background-color: #FBCA4C;
+    background-image: url("../../assets/Pattern.svg");
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+    color: #FFF;
+    font-family: 'Euclid Flex';
+
+    .fellowShipSectionTitle{
+        // font-family: Euclid Flex;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 38px; /* 95% */
+        text-transform: uppercase;
+        width: 599px;
+    }
+
+    .fellowShipSectionDescription{
+        text-align: right;
+        // font-family: 'Euclid Flex';
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 18px;
+        width: 250px;
+    }
+}
+
+
+
+.fellowShipsCustomPadding{
+    padding: 0 11.5px;
+}
+
+.fellowShipTopBackground{
+    height: 162px;
+    background-image: url("../../assets/fellowshipTopLeftBackground.png");
+    background-blend-mode: luminosity, normal;
+}
+
+.fellowShipTopBackgroundLightYellow{
+    background-color: #FFFDCA;
+    background-blend-mode: luminosity;
+    height: 162px;
+    background-image: url("../../assets/fellowshipTopLeftBackground.png");
+}
+
+.fellowShipBottomBackgroundLeft{
+    background-color: #FAEA9A;
+    transition: all  ease-in-out .5s;
+    //min-height: 500px;
+    height: calc(100% - 162px);
+    //margin-top: -10rem;
+}
+
+.fellowShipBottomBackgroundRight{
+    background-color: #F2E28E;
+    transition: all  ease-in-out .5s;
+    //min-height: 500px;
+    height: calc(100% - 162px);
+    //margin-top: -10rem;
+}
+
+
+.fellowShipBottomBackgroundNotExpanded {
+   // min-height: 500px;
+    //background-color: #FAEA9A;
+    color: red;
+}
+
+.fellowShipBottomBackgroundExpanded {
+    //min-height: 700px;
+   // background-color: #FAEA9A;
+   color: yellow;
+}
+
+.fellowShipBottomBackgroundDarkYellow{
+    background-color: #F2E28E;
+}
+
+.customMarginTop {
+    // margin-top: -15rem;
+    // position: absolute;
+    // top: 22rem;
+    margin-top: -5rem;
+}
+
+.fellowshipExpand{
+    height: 40px!important;
+    width: 50px!important;
+    background: #E1CD72!important;
+    color: #61341A!important;
+    border: none;
+    // font-family: Euclid Flex;
+    font-size: 16px;
+    font-weight: bold;
+    transform: rotate(180deg);
+    transition: ease-in-out 0.5s;
+    margin-top: 20px;
+    margin-bottom: 4rem;
+}
+
+.fellowshipCard{
+    font-family: 'Euclid Flex';
+    width: 387px;
+    // height: 376px;
+    // box-sizing: border-box;
+    border: none;
+    border-radius: 0;
+    background: #FFF;
+    box-shadow: 2px 0px 15px 0px rgba(0, 0, 0, 0.08);
+    position: relative;
+    //margin-top: -120px;
+    overflow: hidden;
+
+
+    .fellowShipCardBody{
+        padding: 30px;
+        padding-bottom: 20px;
+        .hidelastdate{visibility: hidden;}
+       
+    }
+
+    .fellowshipCardImage{
+        width: fit-content;
+        height: 139px;
+    }
+
+    .fellowshipCardTitle{
+        margin: 20px 0;
+        color: #61341A;
+        text-align: center;
+        // font-family: Euclid Flex;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 26px; /* 108.333% */
+        text-transform: uppercase;
+    }
+
+    .fellowshipCardDetails{
+        color: #909090;
+        // font-family: Euclid Flex;
+        margin-bottom: 5px;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-transform: uppercase;
+        span{
+            color: #595959;
+            // font-family: Euclid Flex;
+            font-size: 12px;
+            font-weight: 600;
+        }
+    }
+
+    .fellowshipCardContentContainer{
+        text-align: center;
+        font-size: 14px;
+        font-style: normal;
+        line-height: normal;
+        margin-top: 15px;
+        transition: all  ease-in-out .5s;
+        //max-height: 0;
+        &.showContent {
+            opacity: 1;
+            max-height: 100%;
+            
+        }
+        
+        &.hideContent {
+            opacity: 0;
+             max-height: 0%;
+           // transition: all .2s;
+        }
+
+        .fellowshipCardContentTitle{
+            color: #61341A;
+            font-weight: 600;
+            text-transform: uppercase;
+            font-size: 14px;
+        }
+        .fellowshipCardContent{
+            color: #909090;
+            font-weight: 400;
+            font-size: 14px;
+        }
+    }
+
+    
+
+    .fellowshipCardFooter{
+        background-image: url("../../assets/Pattern.svg");
+        // height: 60px;
+        border: none;
+        padding: 1rem;
+        
+        .fellowshipButton{
+            background-color: #E1CD72;
+            width: 160px;
+            // height: 40px;
+            padding: 0.75rem;
+            border: none;
+            border-radius: 0;
+            color: #61341A;
+            // font-family: Euclid Flex;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+            text-transform: uppercase;
+        }
+    }   
+}
+
+.rotateIcon {
+    transform: rotate(0deg);
+    transition: ease-in-out 0.5s;
+}
+

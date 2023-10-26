@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Euclid-Flex-Medium';
+    src: url('EuclidFlex-Medium.eot');
+    src: url('EuclidFlex-Medium.eot?#iefix') format('embedded-opentype'),
+        url('EuclidFlex-Medium.woff2') format('woff2'),
+        url('EuclidFlex-Medium.woff') format('woff'),
+        url('EuclidFlex-Medium.ttf') format('truetype'),
+        url('EuclidFlex-Medium.svg#EuclidFlex-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+}
+
